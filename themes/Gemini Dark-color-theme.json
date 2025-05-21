@@ -54,7 +54,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#fdd663"
+        "foreground": "#ebca67"
       }
     },
     {
@@ -75,7 +75,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.modifier"],
       "settings": {
-        "foreground": "#ccc"
+        "foreground": "#aaa"
       }
     },
     {
@@ -106,7 +106,6 @@
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
-        "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.escape",
@@ -148,7 +147,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#fdd663"
+        "foreground": "#ebca67"
       }
     },
     {
@@ -214,14 +213,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fdd663"
+        "foreground": "#ebca67"
       }
     },
     {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#fdd663"
+        "foreground": "#ebca67"
       }
     },
     {
@@ -311,7 +310,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json punctuation"
       ],
       "settings": {
-        "foreground": "#fdd663"
+        "foreground": "#ebca67"
       }
     },
     {
@@ -546,7 +545,6 @@
       "name": "Operator, Misc",
       "scope": [
         "punctuation",
-        "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -565,7 +563,7 @@
         "keyword.operator.class.php"
       ],
       "settings": {
-        "foreground": "#ccc"
+        "foreground": "#aaa"
       }
     },
     {
@@ -576,34 +574,26 @@
         "punctuation.definition.directive.c",
         "keyword.control.directive.include.c",
         "meta.preprocessor.include.c",
-        "punctuation.section.embedded.begin",
-        "punctuation.section.embedded.end",
-        "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end",
-        "punctuation.definition.binding-pattern.object"
+        "constant.numeric"
       ],
       "settings": {
         "foreground": "#8ab4f8"
       }
     },
     {
-      "scope": ["entity.other.attribute-name.id.css"],
+      "scope": [
+        "punctuation.definition.entity.css",
+        "punctuation.definition.binding-pattern.object"
+      ],
       "settings": {
-        "foreground": "#8ab4f8",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": ["punctuation.definition.entity.css"],
-      "settings": {
-        "foreground": "#ccc",
-        "fontStyle": "bold"
+        "foreground": "#ccc"
       }
     },
     {
       "scope": [
         "meta.tag.metadata.doctype.html entity.other.attribute-name.html",
-        "keyword.control.directive.include.c"
+        "keyword.control.directive.include.c",
+        "constant.numeric"
       ],
       "settings": {
         "fontStyle": "bold"
@@ -621,7 +611,8 @@
         "meta.function-call.js entity.name",
         "meta.function-call.c entity.name",
         "storage.type.function.js storage.type",
-        "meta.function.expression.js storage.type"
+        "meta.function.expression.js storage.type",
+        "meta.jsx.children variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#c58af9"
@@ -636,8 +627,10 @@
     {
       "name": "String interpolation",
       "scope": [
-        "punctuation.section.embedded",
         "variable.other.constant",
+        "entity.name.type.module",
+        "punctuation.definition.template-expression",
+        "variable.other.property",
         "variable.other.readwrite"
       ],
       "settings": {
@@ -652,10 +645,11 @@
         "meta.require",
         "support.function.any-method",
         "variable.function",
-        "meta.export.default variable.other.readwrite"
+        "entity.other.attribute-name.id.css",
+        "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#fdd663"
+        "foreground": "#ebca67"
       }
     },
     {
@@ -663,7 +657,9 @@
       "scope": [
         "entity.other.attribute-name",
         "variable.parameter",
-        "variable.other.object"
+        "variable.other.object",
+        "variable.object.property.tsx",
+        "meta.array.literal variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#fa903e"
