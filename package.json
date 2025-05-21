@@ -1,0 +1,21 @@
+{
+  "name": "gemini-dark",
+  "displayName": "Gemini Dark",
+  "description": "Dark theme reference by Google Gemini, recommend to use GoogleSansCode font if you have.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gemini Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gemini Dark-color-theme.json"
+      }
+    ]
+  }
+}
