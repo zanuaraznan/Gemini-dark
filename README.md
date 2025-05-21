@@ -1,16 +1,15 @@
-# gemini-dark README
+# Gemini Dark Theme
 
-## Working with Markdown
+---
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Dark theme for Visual Studio Code, inspired by Google Gemini when providing a few lines of programming code
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## SCREENSHOT
 
-## For more information
+![Screenshot](screenshot/code.png)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Suggest Editor Settings
+
+Recommend to use [Google Sans Code](https://fonts.gstatic.com/s/googlesanscode/v6/pxifyogzv91QhV44Z_GQBHsGf5PuWE5kr0SqrvI.woff2) font.
 
 **Enjoy!**

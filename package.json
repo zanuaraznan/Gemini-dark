@@ -1,6 +1,10 @@
 {
   "name": "gemini-dark",
   "displayName": "Gemini Dark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zanuaraznan/Gemini-dark.git"
+  },
   "description": "Dark theme reference by Google Gemini, recommend to use GoogleSansCode font if you have.",
   "version": "0.0.1",
   "engines": {
