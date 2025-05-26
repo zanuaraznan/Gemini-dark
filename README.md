@@ -1,12 +1,14 @@
 # Gemini Dark Theme
 
----
-
 Dark theme for Visual Studio Code, inspired by Google Gemini when providing a few lines of programming code
+
+---
 
 ## SCREENSHOT
 
 ![Screenshot](screenshot/code.png)
+
+---
 
 ## Suggest Editor Settings
 

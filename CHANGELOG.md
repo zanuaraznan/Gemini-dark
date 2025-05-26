@@ -1,9 +1,19 @@
-# Change Log
+# 📄 CHANGELOG
 
-All notable changes to the "gemini-dark" extension will be documented in this file.
+> Format: 2025/5/26 - 0.1.0 - Change the color of some syntax
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+---
 
-## [Unreleased]
+## [0.1.0] - 2025/5/26
 
-- Initial release
+### Added
+
+- Enable semantic highlighting and token colors
+
+### Changed
+
+- Type, parameter, property, and number colors
+
+### Improved
+
+- Increase the contrast of orange and blue to produce a better balance contrast.
